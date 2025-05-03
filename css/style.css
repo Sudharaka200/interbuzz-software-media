@@ -7,7 +7,7 @@
 .p-txt{color: #FFF;}
 .main-btn{background: linear-gradient(0deg, #AD232B 41.67%, #790908 106.25%);border: none;color: white;padding: 8px 30px;font-size: 16px;border-radius: 25px;cursor: pointer;}
 .secondary-btn{background-color:black; color: #FFF; padding: 5px 20px; border-radius: 20px; box-sizing: border-box; border-color: #AD232B;}
-
+.text-c{color: #FFF;}
 
 
 /* Navbar */
@@ -23,22 +23,9 @@
 /* Home */
 .home-section1{padding: 90px;}
 .home-client{text-align: center; color: #FFF;}
-.logo-container {
-  width: 100%;
-  overflow: hidden;
-  white-space: nowrap;
-  position: relative;
-  height: 100px; /* adjust as needed */
-}
-
-.logo-strip {
-  display: inline-block;
-  white-space: nowrap;
-  position: absolute;
-  will-change: transform;
-}
-.logo-strip img {
-  margin: 0 20px;
-  height: 60px; /* adjust as needed */
-}
-
+.logo-container {width: 100%;overflow: hidden;white-space: nowrap;position: relative;height: 100px;}
+.logo-strip {display: inline-block;white-space: nowrap;position: absolute;will-change: transform;}
+.logo-strip img {margin: 0 20px;height: 60px;}
+.home-satisfaction-h1{color:#AD232B; font-size: 70px;}
+.home-satisfaction-p1{color: #FFF;}
+.home-services-cards{border: 1px solid #FFF;box-sizing: border-box;background-origin: padding-box; padding: 10px; border-radius: 10px;}
