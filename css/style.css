@@ -1,0 +1,28 @@
+/* Theme */
+.body-home {
+  background: radial-gradient(circle at top center, #e30045 0%, #000000 40%, #0a0a0a 100%);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+}
+
+.main-title{color: #FFF;}
+.main-s-txt{background: linear-gradient(180deg, #FFFFFF 38.88%, #AD232B 100%);-webkit-background-clip: text;-webkit-text-fill-color: transparent;background-clip: text;color: transparent;}
+.p-txt{color: #FFF;}
+.main-btn{background: linear-gradient(0deg, #AD232B 41.67%, #790908 106.25%);border: none;color: white;padding: 8px 30px;font-size: 16px;border-radius: 25px;cursor: pointer;}
+.secondary-btn{background-color:black; color: #FFF; padding: 5px 20px; border-radius: 20px; box-sizing: border-box; border-color: #AD232B;}
+
+
+
+/* Navbar */
+.navbar-st{margin: auto; background-color: black; border-radius: 30px; padding: 5px; color: #FFF;}
+.nav-link{margin-left: 40px; color: #FFF;}
+.home-banner-content-left{margin: auto; padding-top: 20%;}
+
+
+
+
+
+
+/* Home */
+.home-section1{padding: 90px;}
