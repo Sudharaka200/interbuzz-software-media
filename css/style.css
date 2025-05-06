@@ -39,10 +39,91 @@
 .logo-strip {display: flex;justify-content: center;align-items: center;gap: 40px;flex-wrap: nowrap;z-index: 1;filter: grayscale(100%) brightness(0.7);}
 .logo-strip img {height: 60px;opacity: 0.8;transition: opacity 0.3s ease;}
 .logo-strip img:hover {opacity: 1;}
-.home-Satisfaction-bar{padding: 150px 0px 150px 0px; text-align: center;}
+.home-Satisfaction-bar{padding: 150px 0px 0px 0px; text-align: center;}
 .home-our-services-section{padding: 150px 0px 150px 0px; }
 .home-pur-services-p{padding: 0px 100px 0px 100px;}
+.home-project-txt-title-c{padding: 0px;}
+.home-project-txt-p{padding: 0px; margin-top: -15px;}
+.home-projects{padding: 50px 0px 0px 0px;}
+.btn-all-projects{display: flex; justify-content: center;}
+.home-porject-section{padding:0px 0px 150px 0px;}
 
+.testimonial-section {
+    max-width: 1200px;
+    margin: auto;
+  }
+
+  .swiper {
+    padding: 20px 0;
+  }
+
+  .testimonial-card {
+    background: linear-gradient(to bottom, #1a1a1a, #111);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 12px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 250px;
+    box-sizing: border-box;
+  }
+
+  .testimonial-card p {
+    font-size: 14px;
+    line-height: 1.6;
+    color: #ccc;
+  }
+
+  .testimonial-footer {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+  }
+
+  .testimonial-footer img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 12px;
+  }
+
+  .testimonial-footer strong {
+    font-weight: bold;
+    color: #fff;
+  }
+
+  .testimonial-footer span {
+    color: #aaa;
+    font-size: 13px;
+  }
+
+  /* Swiper Pagination Dots */
+  .swiper-pagination-bullet {
+    background: #fff;
+    opacity: 0.3;
+  }
+
+  .swiper-pagination-bullet-active {
+    opacity: 1;
+  }
+
+  /* Desktop Layout: 3 Cards Side-by-side */
+  @media (min-width: 768px) {
+    .swiper-wrapper {
+      display: flex;
+      gap: 20px;
+    }
+
+    .swiper-slide {
+      flex: 1 1 calc(33.333% - 20px);
+      max-width: calc(33.333% - 20px);
+    }
+
+    .swiper-pagination {
+      display: none;
+    }
+  }
 
 /* Responsive layout adjustments */
 @media (max-width: 1200px) {
