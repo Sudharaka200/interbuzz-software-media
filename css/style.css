@@ -39,6 +39,9 @@
 .logo-strip {display: flex;justify-content: center;align-items: center;gap: 40px;flex-wrap: nowrap;z-index: 1;filter: grayscale(100%) brightness(0.7);}
 .logo-strip img {height: 60px;opacity: 0.8;transition: opacity 0.3s ease;}
 .logo-strip img:hover {opacity: 1;}
+.home-Satisfaction-bar{padding: 150px 0px 150px 0px; text-align: center;}
+.home-our-services-section{padding: 150px 0px 150px 0px; }
+.home-pur-services-p{padding: 0px 100px 0px 100px;}
 
 
 /* Responsive layout adjustments */
