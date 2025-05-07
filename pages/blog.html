@@ -6,6 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+
 
     <!-- Bootstrap -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
@@ -24,46 +28,149 @@
 
     <!-- area 1 -->
     <!-- navbar -->
-    <nav class="navbar navbar-expand-lg">
-        <div class="container">
-            <a class="navbar-brand" href="#"><img src="images/LOGO_!50_100 1.png" alt=""></a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <div class="navbar-st">
-                    <ul class="navbar-nav">
-                        <li class="nav-item">
-                            <a class="nav-link" aria-current="page" href="index.html">Home</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="pages/about.html">About</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="pages/service.html">Service</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link active" href="pages/blog.html">Blog</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="pages/contact.html">Contact</a>
-                        </li>
-                    </ul>
+    <div>
+        <div class="body-banner">
+            <div class="body-home">
+                <nav class="navbar navbar-expand-lg navbar-dark">
+                    <div class="container">
+                        <a class="navbar-brand" href="#"><img src="../images/LOGO_!50_100 1.png" alt=""></a>
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
+                            aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarNav">
+                            <div class="navbar-st">
+                                <ul class="navbar-nav">
+                                    <li class="nav-item">
+                                        <a class="nav-link active" aria-current="page" href="../index.html">Home</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link active" href="../pages/about.html">About</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link active" href="../pages/service.html">Service</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link active" href="../pages/blog.html">Blog</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link active" href="../pages/contact.html">Contact</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </nav>
+                <!-- navbar -->
+
+                <!-- home-section -->
+                <div>
+                    <div class="container-" style="text-align: center; padding: 120px 0px 120px 0px;">
+                        <button class="secondary-btn">Our Blog</button>
+                        <h1 class="main-title ">Blog Inter buzz <br><span class="main-s-txt">Software & Media</span>
+                        </h1>
+                        <!-- <p class="p-txt about-banner-section-p1">Lorem ipsum dolor sit amet, consetetur sadipscing
+                            elitr, sed diam nonumy
+                            eirmod
+                            tempor Lorem ipsum dolor sit Lorem ipsum dolor sit amet, consetetur sadipscing elitr,
+                        </p> -->
+                        <button class="main-btn">Get Started</button>
+                    </div>
                 </div>
             </div>
         </div>
-    </nav>
-    <!-- navbar -->
+    </div>
+    <!-- area 2 -->
+    <div class="bg-black">
+        <div class="container py-5">
+            <div class="row g-4">
 
-    <!-- home-section -->
+                <!-- Card 1 -->
+                <div class="col-md-4">
+                    <div class="blog-card bg-dark text-white h-100 border border-primary">
+                        <img src="../images/blog-img1.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <small class="text-muted">27 Jan 2021</small>
+                            <h5 class="card-title mt-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h5>
+                            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, consectetur
+                                adipiscing sed.</p>
+                            <a href="#" class="text-info text-decoration-none">Read More →</a>
+                        </div>
+                    </div>
+                </div>
 
+                <!-- Repeat for 5 more cards -->
+                <div class="col-md-4">
+                    <div class="blog-card bg-dark text-white h-100 border border-primary">
+                        <img src="../images/blog-img2.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <small class="text-muted">27 Jan 2021</small>
+                            <h5 class="card-title mt-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h5>
+                            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, consectetur
+                                adipiscing sed.</p>
+                            <a href="#" class="text-info text-decoration-none">Read More →</a>
+                        </div>
+                    </div>
+                </div>
 
+                <!-- Add more cards (6 total) -->
+                <div class="col-md-4">
+                    <div class="blog-card bg-dark text-white h-100 border border-primary">
+                        <img src="../images/blog-img3.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <small class="text-muted">27 Jan 2021</small>
+                            <h5 class="card-title mt-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h5>
+                            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, consectetur
+                                adipiscing sed.</p>
+                            <a href="#" class="text-info text-decoration-none">Read More →</a>
+                        </div>
+                    </div>
+                </div>
 
+                <div class="col-md-4">
+                    <div class="blog-card bg-dark text-white h-100 border border-primary">
+                        <img src="../images/blog-img4.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <small class="text-muted">27 Jan 2021</small>
+                            <h5 class="card-title mt-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h5>
+                            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, consectetur
+                                adipiscing sed.</p>
+                            <a href="#" class="text-info text-decoration-none">Read More →</a>
+                        </div>
+                    </div>
+                </div>
 
-    <!-- area 1 end-->
+                <div class="col-md-4">
+                    <div class="blog-card bg-dark text-white h-100 border border-primary">
+                        <img src="../images/blog-img5.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <small class="text-muted">27 Jan 2021</small>
+                            <h5 class="card-title mt-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h5>
+                            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, consectetur
+                                adipiscing sed.</p>
+                            <a href="#" class="text-info text-decoration-none">Read More →</a>
+                        </div>
+                    </div>
+                </div>
 
+                <div class="col-md-4">
+                    <div class="blog-card bg-dark text-white h-100 border border-primary">
+                        <img src="../images/blog-img6.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <small class="text-muted">27 Jan 2021</small>
+                            <h5 class="card-title mt-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h5>
+                            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, consectetur
+                                adipiscing sed.</p>
+                            <a href="#" class="text-info text-decoration-none">Read More →</a>
+                        </div>
+                    </div>
+                </div>
 
+            </div>
+        </div>
+    </div>
+    <!-- area 2 end-->
 
 </body>
 
