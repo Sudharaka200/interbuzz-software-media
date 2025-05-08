@@ -8,15 +8,20 @@
 .main-btn{background: linear-gradient(0deg, #AD232B 41.67%, #790908 106.25%);border: none;color: white;padding: 8px 30px;font-size: 16px;border-radius: 25px;cursor: pointer;}
 .secondary-btn{background-color:black; color: #FFF; padding: 5px 20px; border-radius: 20px; box-sizing: border-box; border-color: #AD232B;}
 .text-c{color: #FFF;}
+.p-txt-FFFF{color: #FFFF;}
 .bg-black{background-color: #000000;}
 .a-txt-line{text-decoration: none; color: #FFF;}
+.third-btn{background-color:black; color: #FFF; padding: 5px 20px; border-radius: 20px; box-sizing: border-box; border-color: #AD232B;}
+.txt-center{text-align: center; padding: 20px 70px 20px 70px;}
 
 
 /* Navbar */
 .navbar-st{margin: auto; background-color: black; border-radius: 30px; padding: 5px; color: #FFF;}
 .nav-link{margin-left: 20px; margin-right: 20px; color: #FFF;}
 .home-banner-content-left{margin: auto; padding-top: 20%;}
-
+.contact-form-background{border: 2px solid #333; padding: 20px;border-radius: 20px;}
+.contact-form-inputs{background-color: #000000;border: 2px solid #333;border-radius: 10px; width: 100%;height: 40px;}
+.button-third-wrapper {display: flex;justify-content: center;align-items: center;}
 
 
 
