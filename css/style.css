@@ -30,7 +30,7 @@
 
 
 /* Home */
-.home-section1{padding: 90px;}
+.home-section1{padding: 0px;}
 .home-client{text-align: center; color: #FFF;}
 .logo-container {width: 100%;overflow: hidden;white-space: nowrap;position: relative;height: 100px;}
 .logo-strip {display: inline-block;white-space: nowrap;position: absolute;will-change: transform; padding: 20px;}
@@ -70,6 +70,8 @@
 .home-last-get-started-section-title{text-align: center;}
 .home-last-get-started-section-p{padding: 0px 300px 0px 300px;}
 .fa-fa-icons-css{color: #CA0505;}
+.home-background-grid{margin: 0;background-color: none;background-image: linear-gradient(to right, rgba(255, 255, 255, 0.1) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(255, 255, 255, 0.1) 1px, transparent 1px);background-size: 80px 80px;}
 
   @media (min-width: 768px) {
     .swiper-wrapper {display: flex;gap: 20px;}
@@ -91,6 +93,7 @@
     .home-banner-content-left {padding: 40px 20px;}
 }
 
+/* mobile */
 @media (max-width: 767px) {
     .home-banner-content-left {padding-top: 20px;}
     .home-section1-img{padding-left: 0px;}
@@ -98,6 +101,12 @@
     .p-txt {font-size: 14px;}
     .main-btn,
     .secondary-btn {font-size: 14px;padding: 6px 20px;}
+    .home-client-js{padding: 50px 0px 50px 0px;}
+    .home-Satisfaction-bar{padding: 50px 0px 0px 0px;}
+    .home-our-services-section{padding: 50px 0px 50px 0px; }
+    .home-porject-section{padding:0px 0px 50px 0px;}
+    .home-last-get-started-section{padding: 50px 0px 50px 0px;}
+
 }
 
 @media (max-width: 480px) {
