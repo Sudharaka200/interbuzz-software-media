@@ -124,8 +124,9 @@
     .about-why-choose-section-pd{padding: 0px 0px;}
     .title-p-about{padding: 0px 0px;}
     .sub-blog-padding{padding: 0px 10px;}
-    .sub-services-img-second{}
-
+    .sub-service-banner-img{padding-top: -50px;}
+    /* .sub-services-img-second{margin-top: -50px;} */
+    .bg-sub-service-second-p{margin-top: 20px;}
 
 
 }
@@ -215,7 +216,7 @@
 .seo-section-content h3 {margin: 0 0 5px;font-size: 18px;}
 .seo-section-content p {margin: 0;font-size: 14px;color: #ccc;}
 .sub-services-img-second{width: 100%; padding-top: 100px;}
-.txt-left-service{padding-top: 60px;}
+.txt-left-service{padding-top: 6z0px;}
 
 
 
