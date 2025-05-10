@@ -12,7 +12,7 @@
 .text-c{color: #FFF;}
 .p-txt-FFFF{color: #FFFF;}
 .bg-black{background-color: #000000;}
-.a-txt-line{text-decoration: none; color: #FFF;}
+.a-txt-line{text-decoration: none;}
 .third-btn{background-color:black; color: #FFF; padding: 5px 20px; border-radius: 20px; box-sizing: border-box; border-color: #AD232B;}
 .txt-center{text-align: center; padding: 20px 70px 20px 70px;}
 .icon-color-fafa{color: #AD232B; font-size: 20px; margin-bottom: -2px;}
@@ -112,7 +112,7 @@
     .home-section1-img{padding-left: 0px;}
     .main-title {font-size: 28px;}
     .p-txt {font-size: 14px;}
-    .txt-left-service{text-align: left; padding-top: 20px;}
+    .txt-left-service{text-align: left; padding-top: 20px;margin-bottom: -100px;}
   
     .secondary-btn {font-size: 14px;padding: 6px 20px;}
     .home-client-js{padding: 50px 0px 50px 0px;}
