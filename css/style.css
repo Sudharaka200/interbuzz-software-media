@@ -1,7 +1,142 @@
 /* Theme */
 
 .body-banner {background: radial-gradient(circle at top center, #e30045 0%, #000000 40%, #0a0a0a 100%);background-repeat: no-repeat;background-size: cover;height: 100%;}
+.background-colour-right-red {
+  background: 
+    radial-gradient(
+      circle at right center,
+      rgba(255, 0, 0, 0.2),
+      transparent 30%
+    ),
+    #000000;
+  color: white;
+  font-family: Arial, sans-serif;
+}
 
+
+.background-colour-right-red2 {
+  background: 
+    radial-gradient(
+      circle at right center,
+      rgba(255, 0, 0, 0.2),
+      transparent 20%
+    ),
+    #000000;
+  color: white;
+  font-family: Arial, sans-serif;
+}
+
+.background-colour-right-red21 {
+  background: 
+    radial-gradient(
+      circle at right center,
+      rgba(255, 0, 0, 0.2),
+      transparent 30%
+    ),
+    #000000;
+  color: white;
+  font-family: Arial, sans-serif;
+}
+
+.background-colour-right-red-left-red {
+  background: 
+    radial-gradient(
+      circle at right center,
+      rgba(255, 0, 0, 0.2),
+      transparent 20%
+    ),
+    radial-gradient(
+      circle at left center,
+      rgba(255, 0, 0, 0.15),
+      transparent 10%
+    ),
+    #000000;
+  color: white;
+  font-family: Arial, sans-serif;
+}
+
+.background-colour-right-red-left-red22 {
+  background: 
+    radial-gradient(
+      circle at right center,
+      rgba(255, 0, 0, 0.2),
+      transparent 10%
+    ),
+    radial-gradient(
+      circle at left center,
+      rgba(255, 0, 0, 0.15),
+      transparent 20%
+    ),
+    #000000;
+  color: white;
+  font-family: Arial, sans-serif;
+}
+
+.background-colour-left-only {
+  background: 
+    /* radial-gradient(
+      circle at right center,
+      rgba(255, 0, 0, 0.2),
+      transparent 20%
+    ), */
+    radial-gradient(
+      circle at right center,
+      rgba(255, 0, 0, 0.15),
+      transparent 30%
+    ),
+    #000000;
+  color: white;
+  font-family: Arial, sans-serif;
+}
+
+.background-colour-right-top-left-bottom-center {
+  background: 
+    radial-gradient(
+      circle at left bottom,
+      rgba(255, 0, 0, 0.2),
+      transparent 20%
+    ),
+    radial-gradient(
+      circle at right center,
+      rgba(255, 0, 0, 0.15),
+      transparent 30%
+    ),
+    #000000;
+  color: white;
+  font-family: Arial, sans-serif;
+}
+
+.background-colour-right-only {
+  background: 
+    /* radial-gradient(
+      circle at right center,
+      rgba(255, 0, 0, 0.2),
+      transparent 20%
+    ), */
+    radial-gradient(
+      circle at right center,
+      rgba(255, 0, 0, 0.15),
+      transparent 10%
+    ),
+    #000000;
+  color: white;
+  font-family: Arial, sans-serif;
+}
+
+.background-colour-top-only {
+  background: 
+    radial-gradient(
+      circle at top center,
+      rgba(255, 0, 0, 0.3),
+      transparent 50%
+    ),
+    #000000; /* base black color */
+  color: white;
+  font-family: Arial, sans-serif;
+}
+
+
+.card-back-c{background: linear-gradient(to right, #000000, rgba(255, 0, 0, 0.1));}
 .main-title{color: #FFF;}
 .main-s-txt{background: linear-gradient(180deg, #FFFFFF 38.88%, #AD232B 100%);-webkit-background-clip: text;-webkit-text-fill-color: transparent;background-clip: text;color: transparent;}
 .p1-txt{color: #FFF;}
@@ -72,7 +207,7 @@
 .swiper-pagination-bullet {background: #fff;opacity: 0.3;}
 .swiper-pagination-bullet-active {opacity: 1; background-color: #FF5722;}
 .home-project-section-btn{padding-top: 30px;}
-.home-last-get-started-section{padding: 150px 0px 150px 0px; background: radial-gradient(circle at top center, #e30045 0%, #000000 40%, #0a0a0a 100%);background-repeat: no-repeat;background-size: cover;height: 100%;}
+.home-last-get-started-section{padding: 150px 0px 150px 0px;}
 .home-last-get-started-section-title{text-align: center;}
 .home-last-get-started-section-p{padding: 0px 300px 0px 300px;}
 .fa-fa-icons-css{color: #CA0505;}
